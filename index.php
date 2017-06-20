@@ -1,3 +1,7 @@
+<?php
+require_once 'form.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +11,7 @@
 
 <h1>My great APP</h1>
 
-<form method="POST" action="form.php">
+<form method="POST">
 	<div>
 		<label for="nombre1">Nombre 1</label>
 		<input type="text" name="nombre1" id="nombre1">

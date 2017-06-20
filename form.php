@@ -81,20 +81,5 @@ $title = "Le traitement du formulaire précedent";
 		<li><?= $value ?></li>
 	<?php endforeach; ?>
 </ul>
-
-<p>
-<?php
-/**
-
-	Le résultat de l'opération 
-	$nombre1 (<?= $nombre1 ?>) opération: (<?= $op1 ?>) et$nombre2 (<?= $nombre2 ?>) est $res1 (<?= $res1 ?>)
-	<br>
-	Le résultat de l'opération 
-	$nombre2 (<?= $nombre2 ?>) opération: (<?= $op2 ?>) et$nombre3 (<?= $nombre3 ?>) est $res2 (<?= $res2 ?>)
-
-*/
-?>
-	...
-</p>
 </body>
 </html>
